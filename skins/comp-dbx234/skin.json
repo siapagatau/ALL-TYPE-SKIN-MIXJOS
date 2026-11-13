@@ -1,0 +1,193 @@
+{
+  "schemaVersion": 1,
+  "name": "DBX 234 Kompresor",
+  "version": "2.0",
+  "author": "MIXJOS",
+  "svg": "skin.svg",
+  "viewBox": "0 0 1280 118",
+  "layout": {
+    "padZone": "0 0 1280 118"
+  },
+  "controls": [
+    {
+      "id": "knob-comp-attack",
+      "type": "rotary",
+      "hit": "hit-knob-comp-attack",
+      "angleMin": -135,
+      "angleMax": 135,
+      "defaultValue": 0.6059
+    },
+    {
+      "id": "knob-comp-release",
+      "type": "rotary",
+      "hit": "hit-knob-comp-release",
+      "angleMin": -135,
+      "angleMax": 135,
+      "defaultValue": 0.6059
+    },
+    {
+      "id": "knob-comp-ratio",
+      "type": "rotary",
+      "hit": "hit-knob-comp-ratio",
+      "angleMin": -135,
+      "angleMax": 135,
+      "defaultValue": 0.0526
+    },
+    {
+      "id": "knob-comp-freq",
+      "type": "rotary",
+      "hit": "hit-knob-comp-freq",
+      "angleMin": -135,
+      "angleMax": 135,
+      "defaultValue": 1.0
+    },
+    {
+      "id": "knob-comp-threshold",
+      "type": "rotary",
+      "hit": "hit-knob-comp-threshold",
+      "angleMin": -135,
+      "angleMax": 135,
+      "defaultValue": 0.75
+    },
+    {
+      "id": "knob-comp-gain",
+      "type": "rotary",
+      "hit": "hit-knob-comp-gain",
+      "angleMin": -135,
+      "angleMax": 135,
+      "defaultValue": 0.0
+    },
+    {
+      "id": "knob-comp-balance",
+      "type": "rotary",
+      "hit": "hit-knob-comp-balance",
+      "angleMin": -135,
+      "angleMax": 135,
+      "defaultValue": 0.5
+    },
+    {
+      "id": "knob-comp-volume",
+      "type": "rotary",
+      "hit": "hit-knob-comp-volume",
+      "angleMin": -135,
+      "angleMax": 135,
+      "defaultValue": 1.0
+    },
+    {
+      "id": "tg-comp",
+      "type": "toggle",
+      "hit": "hit-tg-comp",
+      "states": {
+        "normal": "tg-comp-normal",
+        "active": "tg-comp-active"
+      },
+      "trigger": "tap"
+    },
+    {
+      "id": "btn-comp-reset",
+      "type": "button",
+      "hit": "hit-btn-comp-reset",
+      "states": {
+        "normal": "btn-comp-reset-normal",
+        "active": "btn-comp-reset-active"
+      },
+      "trigger": "tap"
+    }
+  ],
+  "mapping": {
+    "knob-comp-attack": {
+      "function": "comp.attack"
+    },
+    "knob-comp-release": {
+      "function": "comp.release"
+    },
+    "knob-comp-ratio": {
+      "function": "comp.ratio"
+    },
+    "knob-comp-freq": {
+      "function": "comp.freq"
+    },
+    "knob-comp-threshold": {
+      "function": "comp.threshold"
+    },
+    "knob-comp-gain": {
+      "function": "comp.gain"
+    },
+    "knob-comp-balance": {
+      "function": "comp.balance"
+    },
+    "knob-comp-volume": {
+      "function": "comp.volume"
+    },
+    "tg-comp": {
+      "function": "comp.toggle"
+    },
+    "btn-comp-reset": {
+      "function": "comp.reset"
+    }
+  },
+  "indicators": [
+    {
+      "id": "led-out-1",
+      "meter": "meter.output",
+      "level": 0.062,
+      "on": "led-out-1-on"
+    },
+    {
+      "id": "led-out-2",
+      "meter": "meter.output",
+      "level": 0.188,
+      "on": "led-out-2-on"
+    },
+    {
+      "id": "led-out-3",
+      "meter": "meter.output",
+      "level": 0.312,
+      "on": "led-out-3-on"
+    },
+    {
+      "id": "led-out-4",
+      "meter": "meter.output",
+      "level": 0.438,
+      "on": "led-out-4-on"
+    },
+    {
+      "id": "led-out-5",
+      "meter": "meter.output",
+      "level": 0.562,
+      "on": "led-out-5-on"
+    },
+    {
+      "id": "led-out-6",
+      "meter": "meter.output",
+      "level": 0.688,
+      "on": "led-out-6-on"
+    },
+    {
+      "id": "led-out-7",
+      "meter": "meter.output",
+      "level": 0.812,
+      "on": "led-out-7-on"
+    },
+    {
+      "id": "led-out-8",
+      "meter": "meter.output",
+      "level": 0.938,
+      "on": "led-out-8-on"
+    }
+  ],
+  "unsupportedInReference": [
+    {
+      "id": "layer-deco",
+      "kind": "decorative",
+      "label": "Telinga rack, sekrup, judul, skala",
+      "reason": "Dekorasi"
+    },
+    {
+      "id": "ref-lowcut",
+      "kind": "control",
+      "label": "Tombol LOW CUT / MONO-STEREO / knob input dan crossover pada gambar referensi",
+      "reason": "Tidak ada padanan di kompresor APK"
+    }
+  ]
+}

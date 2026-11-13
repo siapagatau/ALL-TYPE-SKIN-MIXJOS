@@ -1,0 +1,708 @@
+{
+  "schemaVersion": 1,
+  "name": "dB Voice 602-RV Mixer",
+  "version": "4.2",
+  "author": "MIXJOS",
+  "svg": "skin.svg",
+  "viewBox": "0 0 1966 900",
+  "layout": {
+    "padZone": "0 0 1966 900"
+  },
+  "controls": [
+    {
+      "id": "tg-mic",
+      "type": "toggle",
+      "hit": "hit-tg-mic",
+      "states": {
+        "normal": "tg-mic-normal",
+        "active": "tg-mic-active"
+      },
+      "trigger": "tap"
+    },
+    {
+      "id": "knob-mic-gate",
+      "type": "rotary",
+      "hit": "hit-knob-mic-gate",
+      "angleMin": -135,
+      "angleMax": 135,
+      "defaultValue": 0.5
+    },
+    {
+      "id": "knob-mic-volume",
+      "type": "rotary",
+      "hit": "hit-knob-mic-volume",
+      "angleMin": -135,
+      "angleMax": 135,
+      "defaultValue": 0.5
+    },
+    {
+      "id": "tg-eqmic",
+      "type": "toggle",
+      "hit": "hit-tg-eqmic",
+      "states": {
+        "normal": "tg-eqmic-normal",
+        "active": "tg-eqmic-active"
+      },
+      "trigger": "tap"
+    },
+    {
+      "id": "knob-eqmic-high",
+      "type": "rotary",
+      "hit": "hit-knob-eqmic-high",
+      "angleMin": -135,
+      "angleMax": 135,
+      "defaultValue": 0.5
+    },
+    {
+      "id": "knob-eqmic-mid",
+      "type": "rotary",
+      "hit": "hit-knob-eqmic-mid",
+      "angleMin": -135,
+      "angleMax": 135,
+      "defaultValue": 0.5
+    },
+    {
+      "id": "knob-eqmic-low",
+      "type": "rotary",
+      "hit": "hit-knob-eqmic-low",
+      "angleMin": -135,
+      "angleMax": 135,
+      "defaultValue": 0.5
+    },
+    {
+      "id": "tg-echo",
+      "type": "toggle",
+      "hit": "hit-tg-echo",
+      "states": {
+        "normal": "tg-echo-normal",
+        "active": "tg-echo-active"
+      },
+      "trigger": "tap"
+    },
+    {
+      "id": "knob-echo-delay",
+      "type": "rotary",
+      "hit": "hit-knob-echo-delay",
+      "angleMin": -135,
+      "angleMax": 135,
+      "defaultValue": 0.5
+    },
+    {
+      "id": "knob-echo-feedback",
+      "type": "rotary",
+      "hit": "hit-knob-echo-feedback",
+      "angleMin": -135,
+      "angleMax": 135,
+      "defaultValue": 0.5
+    },
+    {
+      "id": "knob-echo-mix",
+      "type": "rotary",
+      "hit": "hit-knob-echo-mix",
+      "angleMin": -135,
+      "angleMax": 135,
+      "defaultValue": 0.5
+    },
+    {
+      "id": "tg-reverb",
+      "type": "toggle",
+      "hit": "hit-tg-reverb",
+      "states": {
+        "normal": "tg-reverb-normal",
+        "active": "tg-reverb-active"
+      },
+      "trigger": "tap"
+    },
+    {
+      "id": "knob-reverb-room",
+      "type": "rotary",
+      "hit": "hit-knob-reverb-room",
+      "angleMin": -135,
+      "angleMax": 135,
+      "defaultValue": 0.5
+    },
+    {
+      "id": "knob-reverb-damp",
+      "type": "rotary",
+      "hit": "hit-knob-reverb-damp",
+      "angleMin": -135,
+      "angleMax": 135,
+      "defaultValue": 0.5
+    },
+    {
+      "id": "knob-reverb-width",
+      "type": "rotary",
+      "hit": "hit-knob-reverb-width",
+      "angleMin": -135,
+      "angleMax": 135,
+      "defaultValue": 0.5
+    },
+    {
+      "id": "knob-reverb-cess",
+      "type": "rotary",
+      "hit": "hit-knob-reverb-cess",
+      "angleMin": -135,
+      "angleMax": 135,
+      "defaultValue": 0.5
+    },
+    {
+      "id": "knob-reverb-wet",
+      "type": "rotary",
+      "hit": "hit-knob-reverb-wet",
+      "angleMin": -135,
+      "angleMax": 135,
+      "defaultValue": 0.5
+    },
+    {
+      "id": "knob-reverb-dry",
+      "type": "rotary",
+      "hit": "hit-knob-reverb-dry",
+      "angleMin": -135,
+      "angleMax": 135,
+      "defaultValue": 0.5
+    },
+    {
+      "id": "tg-eqaudio",
+      "type": "toggle",
+      "hit": "hit-tg-eqaudio",
+      "states": {
+        "normal": "tg-eqaudio-normal",
+        "active": "tg-eqaudio-active"
+      },
+      "trigger": "tap"
+    },
+    {
+      "id": "knob-eqaudio-gain",
+      "type": "rotary",
+      "hit": "hit-knob-eqaudio-gain",
+      "angleMin": -135,
+      "angleMax": 135,
+      "defaultValue": 0.5
+    },
+    {
+      "id": "knob-eqaudio-sub",
+      "type": "rotary",
+      "hit": "hit-knob-eqaudio-sub",
+      "angleMin": -135,
+      "angleMax": 135,
+      "defaultValue": 0.5
+    },
+    {
+      "id": "knob-eqaudio-high",
+      "type": "rotary",
+      "hit": "hit-knob-eqaudio-high",
+      "angleMin": -135,
+      "angleMax": 135,
+      "defaultValue": 0.5
+    },
+    {
+      "id": "knob-eqaudio-mid",
+      "type": "rotary",
+      "hit": "hit-knob-eqaudio-mid",
+      "angleMin": -135,
+      "angleMax": 135,
+      "defaultValue": 0.5
+    },
+    {
+      "id": "knob-eqaudio-low",
+      "type": "rotary",
+      "hit": "hit-knob-eqaudio-low",
+      "angleMin": -135,
+      "angleMax": 135,
+      "defaultValue": 0.5
+    },
+    {
+      "id": "tg-sysreverb",
+      "type": "toggle",
+      "hit": "hit-tg-sysreverb",
+      "states": {
+        "normal": "tg-sysreverb-normal",
+        "active": "tg-sysreverb-active"
+      },
+      "trigger": "tap"
+    },
+    {
+      "id": "knob-sysreverb-gain",
+      "type": "rotary",
+      "hit": "hit-knob-sysreverb-gain",
+      "angleMin": -135,
+      "angleMax": 135,
+      "defaultValue": 0.5
+    },
+    {
+      "id": "tg-sysreverb-reverb",
+      "type": "toggle",
+      "hit": "hit-tg-sysreverb-reverb",
+      "states": {
+        "normal": "tg-sysreverb-reverb-normal",
+        "active": "tg-sysreverb-reverb-active"
+      },
+      "trigger": "tap"
+    },
+    {
+      "id": "knob-sysreverb-wet",
+      "type": "rotary",
+      "hit": "hit-knob-sysreverb-wet",
+      "angleMin": -135,
+      "angleMax": 135,
+      "defaultValue": 0.5
+    },
+    {
+      "id": "knob-sysreverb-room",
+      "type": "rotary",
+      "hit": "hit-knob-sysreverb-room",
+      "angleMin": -135,
+      "angleMax": 135,
+      "defaultValue": 0.6
+    },
+    {
+      "id": "knob-sysreverb-damp",
+      "type": "rotary",
+      "hit": "hit-knob-sysreverb-damp",
+      "angleMin": -135,
+      "angleMax": 135,
+      "defaultValue": 0.4
+    },
+    {
+      "id": "knob-sysreverb-width",
+      "type": "rotary",
+      "hit": "hit-knob-sysreverb-width",
+      "angleMin": -135,
+      "angleMax": 135,
+      "defaultValue": 1.0
+    },
+    {
+      "id": "knob-sysreverb-cess",
+      "type": "rotary",
+      "hit": "hit-knob-sysreverb-cess",
+      "angleMin": -135,
+      "angleMax": 135,
+      "defaultValue": 0.4
+    },
+    {
+      "id": "knob-sysreverb-predelay",
+      "type": "rotary",
+      "hit": "hit-knob-sysreverb-predelay",
+      "angleMin": -135,
+      "angleMax": 135,
+      "defaultValue": 0.2
+    },
+    {
+      "id": "tg-sysreverb-echo",
+      "type": "toggle",
+      "hit": "hit-tg-sysreverb-echo",
+      "states": {
+        "normal": "tg-sysreverb-echo-normal",
+        "active": "tg-sysreverb-echo-active"
+      },
+      "trigger": "tap"
+    },
+    {
+      "id": "knob-sysreverb-delay",
+      "type": "rotary",
+      "hit": "hit-knob-sysreverb-delay",
+      "angleMin": -135,
+      "angleMax": 135,
+      "defaultValue": 0.45
+    },
+    {
+      "id": "knob-sysreverb-feedback",
+      "type": "rotary",
+      "hit": "hit-knob-sysreverb-feedback",
+      "angleMin": -135,
+      "angleMax": 135,
+      "defaultValue": 0.45
+    },
+    {
+      "id": "knob-sysreverb-mix",
+      "type": "rotary",
+      "hit": "hit-knob-sysreverb-mix",
+      "angleMin": -135,
+      "angleMax": 135,
+      "defaultValue": 0.4
+    },
+    {
+      "id": "knob-sysreverb-rsend-sub",
+      "type": "rotary",
+      "hit": "hit-knob-sysreverb-rsend-sub",
+      "angleMin": -135,
+      "angleMax": 135,
+      "defaultValue": 0.0
+    },
+    {
+      "id": "knob-sysreverb-rsend-low",
+      "type": "rotary",
+      "hit": "hit-knob-sysreverb-rsend-low",
+      "angleMin": -135,
+      "angleMax": 135,
+      "defaultValue": 0.3
+    },
+    {
+      "id": "knob-sysreverb-rsend-mid",
+      "type": "rotary",
+      "hit": "hit-knob-sysreverb-rsend-mid",
+      "angleMin": -135,
+      "angleMax": 135,
+      "defaultValue": 0.8
+    },
+    {
+      "id": "knob-sysreverb-rsend-high",
+      "type": "rotary",
+      "hit": "hit-knob-sysreverb-rsend-high",
+      "angleMin": -135,
+      "angleMax": 135,
+      "defaultValue": 1.0
+    },
+    {
+      "id": "knob-sysreverb-esend-sub",
+      "type": "rotary",
+      "hit": "hit-knob-sysreverb-esend-sub",
+      "angleMin": -135,
+      "angleMax": 135,
+      "defaultValue": 0.0
+    },
+    {
+      "id": "knob-sysreverb-esend-low",
+      "type": "rotary",
+      "hit": "hit-knob-sysreverb-esend-low",
+      "angleMin": -135,
+      "angleMax": 135,
+      "defaultValue": 0.0
+    },
+    {
+      "id": "knob-sysreverb-esend-mid",
+      "type": "rotary",
+      "hit": "hit-knob-sysreverb-esend-mid",
+      "angleMin": -135,
+      "angleMax": 135,
+      "defaultValue": 0.7
+    },
+    {
+      "id": "knob-sysreverb-esend-high",
+      "type": "rotary",
+      "hit": "hit-knob-sysreverb-esend-high",
+      "angleMin": -135,
+      "angleMax": 135,
+      "defaultValue": 0.7
+    },
+    {
+      "id": "slider-eqaudio-sub",
+      "type": "slider",
+      "hit": "hit-slider-eqaudio-sub",
+      "defaultValue": 0.5
+    },
+    {
+      "id": "slider-eqaudio-low",
+      "type": "slider",
+      "hit": "hit-slider-eqaudio-low",
+      "defaultValue": 0.5
+    },
+    {
+      "id": "slider-eqaudio-mid",
+      "type": "slider",
+      "hit": "hit-slider-eqaudio-mid",
+      "defaultValue": 0.5
+    },
+    {
+      "id": "slider-eqaudio-high",
+      "type": "slider",
+      "hit": "hit-slider-eqaudio-high",
+      "defaultValue": 0.5
+    },
+    {
+      "id": "slider-fader-mic-volume",
+      "type": "slider",
+      "hit": "hit-slider-fader-mic-volume",
+      "defaultValue": 0.5
+    },
+    {
+      "id": "slider-fader-eqaudio-gain",
+      "type": "slider",
+      "hit": "hit-slider-fader-eqaudio-gain",
+      "defaultValue": 0.5
+    }
+  ],
+  "mapping": {
+    "tg-mic": {
+      "function": "mic.toggle"
+    },
+    "knob-mic-gate": {
+      "function": "mic.gate"
+    },
+    "knob-mic-volume": {
+      "function": "mic.volume"
+    },
+    "tg-eqmic": {
+      "function": "eqmic.toggle"
+    },
+    "knob-eqmic-high": {
+      "function": "eqmic.high"
+    },
+    "knob-eqmic-mid": {
+      "function": "eqmic.mid"
+    },
+    "knob-eqmic-low": {
+      "function": "eqmic.low"
+    },
+    "tg-echo": {
+      "function": "echo.toggle"
+    },
+    "knob-echo-delay": {
+      "function": "echo.delay"
+    },
+    "knob-echo-feedback": {
+      "function": "echo.feedback"
+    },
+    "knob-echo-mix": {
+      "function": "echo.mix"
+    },
+    "tg-reverb": {
+      "function": "reverb.toggle"
+    },
+    "knob-reverb-room": {
+      "function": "reverb.room"
+    },
+    "knob-reverb-damp": {
+      "function": "reverb.damp"
+    },
+    "knob-reverb-width": {
+      "function": "reverb.width"
+    },
+    "knob-reverb-cess": {
+      "function": "reverb.cess"
+    },
+    "knob-reverb-wet": {
+      "function": "reverb.wet"
+    },
+    "knob-reverb-dry": {
+      "function": "reverb.dry"
+    },
+    "tg-eqaudio": {
+      "function": "eqaudio.toggle"
+    },
+    "knob-eqaudio-gain": {
+      "function": "eqaudio.gain"
+    },
+    "knob-eqaudio-sub": {
+      "function": "eqaudio.sub"
+    },
+    "knob-eqaudio-high": {
+      "function": "eqaudio.high"
+    },
+    "knob-eqaudio-mid": {
+      "function": "eqaudio.mid"
+    },
+    "knob-eqaudio-low": {
+      "function": "eqaudio.low"
+    },
+    "tg-sysreverb": {
+      "function": "sysreverb.toggle"
+    },
+    "knob-sysreverb-gain": {
+      "function": "sysreverb.gain"
+    },
+    "tg-sysreverb-reverb": {
+      "function": "sysreverb.reverb.toggle"
+    },
+    "knob-sysreverb-wet": {
+      "function": "sysreverb.wet"
+    },
+    "knob-sysreverb-room": {
+      "function": "sysreverb.room"
+    },
+    "knob-sysreverb-damp": {
+      "function": "sysreverb.damp"
+    },
+    "knob-sysreverb-width": {
+      "function": "sysreverb.width"
+    },
+    "knob-sysreverb-cess": {
+      "function": "sysreverb.cess"
+    },
+    "knob-sysreverb-predelay": {
+      "function": "sysreverb.predelay"
+    },
+    "tg-sysreverb-echo": {
+      "function": "sysreverb.echo.toggle"
+    },
+    "knob-sysreverb-delay": {
+      "function": "sysreverb.delay"
+    },
+    "knob-sysreverb-feedback": {
+      "function": "sysreverb.feedback"
+    },
+    "knob-sysreverb-mix": {
+      "function": "sysreverb.mix"
+    },
+    "knob-sysreverb-rsend-sub": {
+      "function": "sysreverb.rsend.sub"
+    },
+    "knob-sysreverb-rsend-low": {
+      "function": "sysreverb.rsend.low"
+    },
+    "knob-sysreverb-rsend-mid": {
+      "function": "sysreverb.rsend.mid"
+    },
+    "knob-sysreverb-rsend-high": {
+      "function": "sysreverb.rsend.high"
+    },
+    "knob-sysreverb-esend-sub": {
+      "function": "sysreverb.esend.sub"
+    },
+    "knob-sysreverb-esend-low": {
+      "function": "sysreverb.esend.low"
+    },
+    "knob-sysreverb-esend-mid": {
+      "function": "sysreverb.esend.mid"
+    },
+    "knob-sysreverb-esend-high": {
+      "function": "sysreverb.esend.high"
+    },
+    "slider-eqaudio-sub": {
+      "function": "eqaudio.sub"
+    },
+    "slider-eqaudio-low": {
+      "function": "eqaudio.low"
+    },
+    "slider-eqaudio-mid": {
+      "function": "eqaudio.mid"
+    },
+    "slider-eqaudio-high": {
+      "function": "eqaudio.high"
+    },
+    "slider-fader-mic-volume": {
+      "function": "mic.volume"
+    },
+    "slider-fader-eqaudio-gain": {
+      "function": "eqaudio.gain"
+    }
+  },
+  "indicators": [
+    {
+      "id": "led-mic-1",
+      "meter": "meter.mic",
+      "level": 0.071,
+      "on": "led-mic-1-on"
+    },
+    {
+      "id": "led-mic-2",
+      "meter": "meter.mic",
+      "level": 0.214,
+      "on": "led-mic-2-on"
+    },
+    {
+      "id": "led-mic-3",
+      "meter": "meter.mic",
+      "level": 0.357,
+      "on": "led-mic-3-on"
+    },
+    {
+      "id": "led-mic-4",
+      "meter": "meter.mic",
+      "level": 0.5,
+      "on": "led-mic-4-on"
+    },
+    {
+      "id": "led-mic-5",
+      "meter": "meter.mic",
+      "level": 0.643,
+      "on": "led-mic-5-on"
+    },
+    {
+      "id": "led-mic-6",
+      "meter": "meter.mic",
+      "level": 0.786,
+      "on": "led-mic-6-on"
+    },
+    {
+      "id": "led-mic-7",
+      "meter": "meter.mic",
+      "level": 0.929,
+      "on": "led-mic-7-on"
+    },
+    {
+      "id": "led-out-1",
+      "meter": "meter.output",
+      "level": 0.071,
+      "on": "led-out-1-on"
+    },
+    {
+      "id": "led-out-2",
+      "meter": "meter.output",
+      "level": 0.214,
+      "on": "led-out-2-on"
+    },
+    {
+      "id": "led-out-3",
+      "meter": "meter.output",
+      "level": 0.357,
+      "on": "led-out-3-on"
+    },
+    {
+      "id": "led-out-4",
+      "meter": "meter.output",
+      "level": 0.5,
+      "on": "led-out-4-on"
+    },
+    {
+      "id": "led-out-5",
+      "meter": "meter.output",
+      "level": 0.643,
+      "on": "led-out-5-on"
+    },
+    {
+      "id": "led-out-6",
+      "meter": "meter.output",
+      "level": 0.786,
+      "on": "led-out-6-on"
+    },
+    {
+      "id": "led-out-7",
+      "meter": "meter.output",
+      "level": 0.929,
+      "on": "led-out-7-on"
+    },
+    {
+      "id": "led-sys-1",
+      "meter": "meter.sysreverb",
+      "level": 0.071,
+      "on": "led-sys-1-on"
+    },
+    {
+      "id": "led-sys-2",
+      "meter": "meter.sysreverb",
+      "level": 0.214,
+      "on": "led-sys-2-on"
+    },
+    {
+      "id": "led-sys-3",
+      "meter": "meter.sysreverb",
+      "level": 0.357,
+      "on": "led-sys-3-on"
+    },
+    {
+      "id": "led-sys-4",
+      "meter": "meter.sysreverb",
+      "level": 0.5,
+      "on": "led-sys-4-on"
+    },
+    {
+      "id": "led-sys-5",
+      "meter": "meter.sysreverb",
+      "level": 0.643,
+      "on": "led-sys-5-on"
+    },
+    {
+      "id": "led-sys-6",
+      "meter": "meter.sysreverb",
+      "level": 0.786,
+      "on": "led-sys-6-on"
+    },
+    {
+      "id": "led-sys-7",
+      "meter": "meter.sysreverb",
+      "level": 0.929,
+      "on": "led-sys-7-on"
+    }
+  ]
+}

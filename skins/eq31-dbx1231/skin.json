@@ -1,0 +1,691 @@
+{
+ "schemaVersion": 1,
+ "name": "dbx 1231 EQ",
+ "version": "1.1",
+ "author": "MIXJOS",
+ "svg": "skin.svg",
+ "viewBox": "0 0 2048 591",
+ "layout": {
+  "padZone": "0 0 2048 591"
+ },
+ "controls": [
+  {
+   "id": "tg-eq31",
+   "type": "toggle",
+   "hit": "hit-tg-eq31",
+   "states": {
+    "normal": "tg-eq31-normal",
+    "active": "tg-eq31-active"
+   },
+   "trigger": "tap"
+  },
+  {
+   "id": "btn-eq-reset",
+   "type": "button",
+   "hit": "hit-btn-eq-reset",
+   "states": {
+    "normal": "btn-eq-reset-normal",
+    "active": "btn-eq-reset-active"
+   },
+   "trigger": "tap"
+  },
+  {
+   "id": "knob-eq31-l-gain",
+   "type": "rotary",
+   "hit": "hit-knob-eq31-l-gain",
+   "angleMin": -135,
+   "angleMax": 135,
+   "defaultValue": 0.5
+  },
+  {
+   "id": "sl-eq31-l-01",
+   "type": "slider",
+   "hit": "hit-sl-eq31-l-01",
+   "defaultValue": 0.5
+  },
+  {
+   "id": "sl-eq31-l-02",
+   "type": "slider",
+   "hit": "hit-sl-eq31-l-02",
+   "defaultValue": 0.5
+  },
+  {
+   "id": "sl-eq31-l-03",
+   "type": "slider",
+   "hit": "hit-sl-eq31-l-03",
+   "defaultValue": 0.5
+  },
+  {
+   "id": "sl-eq31-l-04",
+   "type": "slider",
+   "hit": "hit-sl-eq31-l-04",
+   "defaultValue": 0.5
+  },
+  {
+   "id": "sl-eq31-l-05",
+   "type": "slider",
+   "hit": "hit-sl-eq31-l-05",
+   "defaultValue": 0.5
+  },
+  {
+   "id": "sl-eq31-l-06",
+   "type": "slider",
+   "hit": "hit-sl-eq31-l-06",
+   "defaultValue": 0.5
+  },
+  {
+   "id": "sl-eq31-l-07",
+   "type": "slider",
+   "hit": "hit-sl-eq31-l-07",
+   "defaultValue": 0.5
+  },
+  {
+   "id": "sl-eq31-l-08",
+   "type": "slider",
+   "hit": "hit-sl-eq31-l-08",
+   "defaultValue": 0.5
+  },
+  {
+   "id": "sl-eq31-l-09",
+   "type": "slider",
+   "hit": "hit-sl-eq31-l-09",
+   "defaultValue": 0.5
+  },
+  {
+   "id": "sl-eq31-l-10",
+   "type": "slider",
+   "hit": "hit-sl-eq31-l-10",
+   "defaultValue": 0.5
+  },
+  {
+   "id": "sl-eq31-l-11",
+   "type": "slider",
+   "hit": "hit-sl-eq31-l-11",
+   "defaultValue": 0.5
+  },
+  {
+   "id": "sl-eq31-l-12",
+   "type": "slider",
+   "hit": "hit-sl-eq31-l-12",
+   "defaultValue": 0.5
+  },
+  {
+   "id": "sl-eq31-l-13",
+   "type": "slider",
+   "hit": "hit-sl-eq31-l-13",
+   "defaultValue": 0.5
+  },
+  {
+   "id": "sl-eq31-l-14",
+   "type": "slider",
+   "hit": "hit-sl-eq31-l-14",
+   "defaultValue": 0.5
+  },
+  {
+   "id": "sl-eq31-l-15",
+   "type": "slider",
+   "hit": "hit-sl-eq31-l-15",
+   "defaultValue": 0.5
+  },
+  {
+   "id": "sl-eq31-l-16",
+   "type": "slider",
+   "hit": "hit-sl-eq31-l-16",
+   "defaultValue": 0.5
+  },
+  {
+   "id": "sl-eq31-l-17",
+   "type": "slider",
+   "hit": "hit-sl-eq31-l-17",
+   "defaultValue": 0.5
+  },
+  {
+   "id": "sl-eq31-l-18",
+   "type": "slider",
+   "hit": "hit-sl-eq31-l-18",
+   "defaultValue": 0.5
+  },
+  {
+   "id": "sl-eq31-l-19",
+   "type": "slider",
+   "hit": "hit-sl-eq31-l-19",
+   "defaultValue": 0.5
+  },
+  {
+   "id": "sl-eq31-l-20",
+   "type": "slider",
+   "hit": "hit-sl-eq31-l-20",
+   "defaultValue": 0.5
+  },
+  {
+   "id": "sl-eq31-l-21",
+   "type": "slider",
+   "hit": "hit-sl-eq31-l-21",
+   "defaultValue": 0.5
+  },
+  {
+   "id": "sl-eq31-l-22",
+   "type": "slider",
+   "hit": "hit-sl-eq31-l-22",
+   "defaultValue": 0.5
+  },
+  {
+   "id": "sl-eq31-l-23",
+   "type": "slider",
+   "hit": "hit-sl-eq31-l-23",
+   "defaultValue": 0.5
+  },
+  {
+   "id": "sl-eq31-l-24",
+   "type": "slider",
+   "hit": "hit-sl-eq31-l-24",
+   "defaultValue": 0.5
+  },
+  {
+   "id": "sl-eq31-l-25",
+   "type": "slider",
+   "hit": "hit-sl-eq31-l-25",
+   "defaultValue": 0.5
+  },
+  {
+   "id": "sl-eq31-l-26",
+   "type": "slider",
+   "hit": "hit-sl-eq31-l-26",
+   "defaultValue": 0.5
+  },
+  {
+   "id": "sl-eq31-l-27",
+   "type": "slider",
+   "hit": "hit-sl-eq31-l-27",
+   "defaultValue": 0.5
+  },
+  {
+   "id": "sl-eq31-l-28",
+   "type": "slider",
+   "hit": "hit-sl-eq31-l-28",
+   "defaultValue": 0.5
+  },
+  {
+   "id": "sl-eq31-l-29",
+   "type": "slider",
+   "hit": "hit-sl-eq31-l-29",
+   "defaultValue": 0.5
+  },
+  {
+   "id": "sl-eq31-l-30",
+   "type": "slider",
+   "hit": "hit-sl-eq31-l-30",
+   "defaultValue": 0.5
+  },
+  {
+   "id": "sl-eq31-l-31",
+   "type": "slider",
+   "hit": "hit-sl-eq31-l-31",
+   "defaultValue": 0.5
+  },
+  {
+   "id": "knob-eq31-r-gain",
+   "type": "rotary",
+   "hit": "hit-knob-eq31-r-gain",
+   "angleMin": -135,
+   "angleMax": 135,
+   "defaultValue": 0.5
+  },
+  {
+   "id": "sl-eq31-r-01",
+   "type": "slider",
+   "hit": "hit-sl-eq31-r-01",
+   "defaultValue": 0.5
+  },
+  {
+   "id": "sl-eq31-r-02",
+   "type": "slider",
+   "hit": "hit-sl-eq31-r-02",
+   "defaultValue": 0.5
+  },
+  {
+   "id": "sl-eq31-r-03",
+   "type": "slider",
+   "hit": "hit-sl-eq31-r-03",
+   "defaultValue": 0.5
+  },
+  {
+   "id": "sl-eq31-r-04",
+   "type": "slider",
+   "hit": "hit-sl-eq31-r-04",
+   "defaultValue": 0.5
+  },
+  {
+   "id": "sl-eq31-r-05",
+   "type": "slider",
+   "hit": "hit-sl-eq31-r-05",
+   "defaultValue": 0.5
+  },
+  {
+   "id": "sl-eq31-r-06",
+   "type": "slider",
+   "hit": "hit-sl-eq31-r-06",
+   "defaultValue": 0.5
+  },
+  {
+   "id": "sl-eq31-r-07",
+   "type": "slider",
+   "hit": "hit-sl-eq31-r-07",
+   "defaultValue": 0.5
+  },
+  {
+   "id": "sl-eq31-r-08",
+   "type": "slider",
+   "hit": "hit-sl-eq31-r-08",
+   "defaultValue": 0.5
+  },
+  {
+   "id": "sl-eq31-r-09",
+   "type": "slider",
+   "hit": "hit-sl-eq31-r-09",
+   "defaultValue": 0.5
+  },
+  {
+   "id": "sl-eq31-r-10",
+   "type": "slider",
+   "hit": "hit-sl-eq31-r-10",
+   "defaultValue": 0.5
+  },
+  {
+   "id": "sl-eq31-r-11",
+   "type": "slider",
+   "hit": "hit-sl-eq31-r-11",
+   "defaultValue": 0.5
+  },
+  {
+   "id": "sl-eq31-r-12",
+   "type": "slider",
+   "hit": "hit-sl-eq31-r-12",
+   "defaultValue": 0.5
+  },
+  {
+   "id": "sl-eq31-r-13",
+   "type": "slider",
+   "hit": "hit-sl-eq31-r-13",
+   "defaultValue": 0.5
+  },
+  {
+   "id": "sl-eq31-r-14",
+   "type": "slider",
+   "hit": "hit-sl-eq31-r-14",
+   "defaultValue": 0.5
+  },
+  {
+   "id": "sl-eq31-r-15",
+   "type": "slider",
+   "hit": "hit-sl-eq31-r-15",
+   "defaultValue": 0.5
+  },
+  {
+   "id": "sl-eq31-r-16",
+   "type": "slider",
+   "hit": "hit-sl-eq31-r-16",
+   "defaultValue": 0.5
+  },
+  {
+   "id": "sl-eq31-r-17",
+   "type": "slider",
+   "hit": "hit-sl-eq31-r-17",
+   "defaultValue": 0.5
+  },
+  {
+   "id": "sl-eq31-r-18",
+   "type": "slider",
+   "hit": "hit-sl-eq31-r-18",
+   "defaultValue": 0.5
+  },
+  {
+   "id": "sl-eq31-r-19",
+   "type": "slider",
+   "hit": "hit-sl-eq31-r-19",
+   "defaultValue": 0.5
+  },
+  {
+   "id": "sl-eq31-r-20",
+   "type": "slider",
+   "hit": "hit-sl-eq31-r-20",
+   "defaultValue": 0.5
+  },
+  {
+   "id": "sl-eq31-r-21",
+   "type": "slider",
+   "hit": "hit-sl-eq31-r-21",
+   "defaultValue": 0.5
+  },
+  {
+   "id": "sl-eq31-r-22",
+   "type": "slider",
+   "hit": "hit-sl-eq31-r-22",
+   "defaultValue": 0.5
+  },
+  {
+   "id": "sl-eq31-r-23",
+   "type": "slider",
+   "hit": "hit-sl-eq31-r-23",
+   "defaultValue": 0.5
+  },
+  {
+   "id": "sl-eq31-r-24",
+   "type": "slider",
+   "hit": "hit-sl-eq31-r-24",
+   "defaultValue": 0.5
+  },
+  {
+   "id": "sl-eq31-r-25",
+   "type": "slider",
+   "hit": "hit-sl-eq31-r-25",
+   "defaultValue": 0.5
+  },
+  {
+   "id": "sl-eq31-r-26",
+   "type": "slider",
+   "hit": "hit-sl-eq31-r-26",
+   "defaultValue": 0.5
+  },
+  {
+   "id": "sl-eq31-r-27",
+   "type": "slider",
+   "hit": "hit-sl-eq31-r-27",
+   "defaultValue": 0.5
+  },
+  {
+   "id": "sl-eq31-r-28",
+   "type": "slider",
+   "hit": "hit-sl-eq31-r-28",
+   "defaultValue": 0.5
+  },
+  {
+   "id": "sl-eq31-r-29",
+   "type": "slider",
+   "hit": "hit-sl-eq31-r-29",
+   "defaultValue": 0.5
+  },
+  {
+   "id": "sl-eq31-r-30",
+   "type": "slider",
+   "hit": "hit-sl-eq31-r-30",
+   "defaultValue": 0.5
+  },
+  {
+   "id": "sl-eq31-r-31",
+   "type": "slider",
+   "hit": "hit-sl-eq31-r-31",
+   "defaultValue": 0.5
+  }
+ ],
+ "mapping": {
+  "tg-eq31": {
+   "function": "eq31.toggle"
+  },
+  "btn-eq-reset": {
+   "function": "eq31.reset"
+  },
+  "knob-eq31-l-gain": {
+   "function": "eq31.l.gain"
+  },
+  "sl-eq31-l-01": {
+   "function": "eq31.l.01"
+  },
+  "sl-eq31-l-02": {
+   "function": "eq31.l.02"
+  },
+  "sl-eq31-l-03": {
+   "function": "eq31.l.03"
+  },
+  "sl-eq31-l-04": {
+   "function": "eq31.l.04"
+  },
+  "sl-eq31-l-05": {
+   "function": "eq31.l.05"
+  },
+  "sl-eq31-l-06": {
+   "function": "eq31.l.06"
+  },
+  "sl-eq31-l-07": {
+   "function": "eq31.l.07"
+  },
+  "sl-eq31-l-08": {
+   "function": "eq31.l.08"
+  },
+  "sl-eq31-l-09": {
+   "function": "eq31.l.09"
+  },
+  "sl-eq31-l-10": {
+   "function": "eq31.l.10"
+  },
+  "sl-eq31-l-11": {
+   "function": "eq31.l.11"
+  },
+  "sl-eq31-l-12": {
+   "function": "eq31.l.12"
+  },
+  "sl-eq31-l-13": {
+   "function": "eq31.l.13"
+  },
+  "sl-eq31-l-14": {
+   "function": "eq31.l.14"
+  },
+  "sl-eq31-l-15": {
+   "function": "eq31.l.15"
+  },
+  "sl-eq31-l-16": {
+   "function": "eq31.l.16"
+  },
+  "sl-eq31-l-17": {
+   "function": "eq31.l.17"
+  },
+  "sl-eq31-l-18": {
+   "function": "eq31.l.18"
+  },
+  "sl-eq31-l-19": {
+   "function": "eq31.l.19"
+  },
+  "sl-eq31-l-20": {
+   "function": "eq31.l.20"
+  },
+  "sl-eq31-l-21": {
+   "function": "eq31.l.21"
+  },
+  "sl-eq31-l-22": {
+   "function": "eq31.l.22"
+  },
+  "sl-eq31-l-23": {
+   "function": "eq31.l.23"
+  },
+  "sl-eq31-l-24": {
+   "function": "eq31.l.24"
+  },
+  "sl-eq31-l-25": {
+   "function": "eq31.l.25"
+  },
+  "sl-eq31-l-26": {
+   "function": "eq31.l.26"
+  },
+  "sl-eq31-l-27": {
+   "function": "eq31.l.27"
+  },
+  "sl-eq31-l-28": {
+   "function": "eq31.l.28"
+  },
+  "sl-eq31-l-29": {
+   "function": "eq31.l.29"
+  },
+  "sl-eq31-l-30": {
+   "function": "eq31.l.30"
+  },
+  "sl-eq31-l-31": {
+   "function": "eq31.l.31"
+  },
+  "knob-eq31-r-gain": {
+   "function": "eq31.r.gain"
+  },
+  "sl-eq31-r-01": {
+   "function": "eq31.r.01"
+  },
+  "sl-eq31-r-02": {
+   "function": "eq31.r.02"
+  },
+  "sl-eq31-r-03": {
+   "function": "eq31.r.03"
+  },
+  "sl-eq31-r-04": {
+   "function": "eq31.r.04"
+  },
+  "sl-eq31-r-05": {
+   "function": "eq31.r.05"
+  },
+  "sl-eq31-r-06": {
+   "function": "eq31.r.06"
+  },
+  "sl-eq31-r-07": {
+   "function": "eq31.r.07"
+  },
+  "sl-eq31-r-08": {
+   "function": "eq31.r.08"
+  },
+  "sl-eq31-r-09": {
+   "function": "eq31.r.09"
+  },
+  "sl-eq31-r-10": {
+   "function": "eq31.r.10"
+  },
+  "sl-eq31-r-11": {
+   "function": "eq31.r.11"
+  },
+  "sl-eq31-r-12": {
+   "function": "eq31.r.12"
+  },
+  "sl-eq31-r-13": {
+   "function": "eq31.r.13"
+  },
+  "sl-eq31-r-14": {
+   "function": "eq31.r.14"
+  },
+  "sl-eq31-r-15": {
+   "function": "eq31.r.15"
+  },
+  "sl-eq31-r-16": {
+   "function": "eq31.r.16"
+  },
+  "sl-eq31-r-17": {
+   "function": "eq31.r.17"
+  },
+  "sl-eq31-r-18": {
+   "function": "eq31.r.18"
+  },
+  "sl-eq31-r-19": {
+   "function": "eq31.r.19"
+  },
+  "sl-eq31-r-20": {
+   "function": "eq31.r.20"
+  },
+  "sl-eq31-r-21": {
+   "function": "eq31.r.21"
+  },
+  "sl-eq31-r-22": {
+   "function": "eq31.r.22"
+  },
+  "sl-eq31-r-23": {
+   "function": "eq31.r.23"
+  },
+  "sl-eq31-r-24": {
+   "function": "eq31.r.24"
+  },
+  "sl-eq31-r-25": {
+   "function": "eq31.r.25"
+  },
+  "sl-eq31-r-26": {
+   "function": "eq31.r.26"
+  },
+  "sl-eq31-r-27": {
+   "function": "eq31.r.27"
+  },
+  "sl-eq31-r-28": {
+   "function": "eq31.r.28"
+  },
+  "sl-eq31-r-29": {
+   "function": "eq31.r.29"
+  },
+  "sl-eq31-r-30": {
+   "function": "eq31.r.30"
+  },
+  "sl-eq31-r-31": {
+   "function": "eq31.r.31"
+  }
+ },
+ "indicators": [
+  {
+   "id": "led-l-1",
+   "meter": "meter.output",
+   "level": 0.25,
+   "on": "led-l-1-on"
+  },
+  {
+   "id": "led-l-2",
+   "meter": "meter.output",
+   "level": 0.5,
+   "on": "led-l-2-on"
+  },
+  {
+   "id": "led-l-3",
+   "meter": "meter.output",
+   "level": 0.75,
+   "on": "led-l-3-on"
+  },
+  {
+   "id": "led-l-4",
+   "meter": "meter.output",
+   "level": 0.92,
+   "on": "led-l-4-on"
+  },
+  {
+   "id": "led-l-clip",
+   "meter": "meter.output",
+   "level": 0.97,
+   "on": "led-l-clip-on"
+  },
+  {
+   "id": "led-r-1",
+   "meter": "meter.output",
+   "level": 0.25,
+   "on": "led-r-1-on"
+  },
+  {
+   "id": "led-r-2",
+   "meter": "meter.output",
+   "level": 0.5,
+   "on": "led-r-2-on"
+  },
+  {
+   "id": "led-r-3",
+   "meter": "meter.output",
+   "level": 0.75,
+   "on": "led-r-3-on"
+  },
+  {
+   "id": "led-r-4",
+   "meter": "meter.output",
+   "level": 0.92,
+   "on": "led-r-4-on"
+  },
+  {
+   "id": "led-r-clip",
+   "meter": "meter.output",
+   "level": 0.97,
+   "on": "led-r-clip-on"
+  }
+ ],
+ "unsupportedInReference": [
+  {
+   "id": "deco-lowcut-l",
+   "kind": "decorative",
+   "label": "LOW CUT (atas/bawah)",
+   "reason": "Tidak ada function di APK"
+  }
+ ]
+}

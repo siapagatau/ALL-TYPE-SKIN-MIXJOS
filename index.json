@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 2,
+  "repo": "ALL-TYPE-SKIN-MIXJOS",
+  "updated": "2026-11-13",
+  "skins": [
+    {
+      "id": "skin-01",
+      "type": "mixer",
+      "name": "Yamaha MG12XUK Mixer",
+      "version": "3.1",
+      "author": "MIXJOS",
+      "padMin": 0,
+      "padMax": 0,
+      "path": "skins/skin-01/",
+      "files": {
+        "skin.json": {
+          "sha256": "f83478caa8fa75b909b034693f12097c70f295e2c60021a7041883d2b83cd581",
+          "size": 14450
+        },
+        "skin.svg": {
+          "sha256": "0f7531c2aa944706b487a2493ef120a898182bc4c94e4da2dc26bc9dcc626aaa",
+          "size": 202856
+        },
+        "preview.svg": {
+          "sha256": "2d6642eb9fa568a6008eb7d1b1d3030357b787b2e8daa9401cb766b18fb7832b",
+          "size": 204656
+        }
+      }
+    },
+    {
+      "id": "skin-02",
+      "type": "mixer",
+      "name": "dB Voice 602-RV Mixer",
+      "version": "4.2",
+      "author": "MIXJOS",
+      "padMin": 0,
+      "padMax": 0,
+      "path": "skins/skin-02/",
+      "files": {
+        "skin.json": {
+          "sha256": "5bb68991b7b86de794bf5051601d59f17809878d8d9248157f7d7058f0191f8e",
+          "size": 15709
+        },
+        "skin.svg": {
+          "sha256": "9d810d2500945f63915628dd4b812e8ad673bc06bb0c195568e948a2c7effe7c",
+          "size": 500125
+        },
+        "preview.svg": {
+          "sha256": "bdac69f84c9e823acb6421873eb087812d3181728e84c9faf4634174f8578003",
+          "size": 502165
+        }
+      }
+    },
+    {
+      "id": "comp-dbx234",
+      "type": "comp",
+      "name": "DBX 234 Kompresor",
+      "version": "2.0",
+      "author": "MIXJOS",
+      "padMin": 0,
+      "padMax": 0,
+      "path": "skins/comp-dbx234/",
+      "files": {
+        "skin.json": {
+          "sha256": "bcb5ff35b63902431adac37c7f1061fd9285eae3611a605909a691551bec2c9f",
+          "size": 4121
+        },
+        "skin.svg": {
+          "sha256": "1c59decb4617da06c1250c00a9eb9060115e3807ec4f4e6e725f3ff5f78dc8de",
+          "size": 41807
+        },
+        "preview.svg": {
+          "sha256": "aee5cab280e2decd96d7909a5e51b31117b7f66477761df9e80c808882acdab4",
+          "size": 43011
+        }
+      }
+    },
+    {
+      "id": "eq31-dbx1231",
+      "type": "eq",
+      "name": "dbx 1231 EQ",
+      "version": "1.1",
+      "author": "MIXJOS",
+      "padMin": 0,
+      "padMax": 0,
+      "path": "skins/eq31-dbx1231/",
+      "files": {
+        "skin.json": {
+          "sha256": "8bbd1e013181aca600a0285e2aeb2c24682388eb3f4ac1298ef5ee29d1032277",
+          "size": 12214
+        },
+        "skin.svg": {
+          "sha256": "e99d2ee745b3273ff471006b762496184ea45b4502ee97d9e3082ee31a7abe19",
+          "size": 72666
+        },
+        "preview.svg": {
+          "sha256": "32292ec6bb45cb14d3a0dfd1db274410511ca7f3cc847ac565cd71692b508791",
+          "size": 78860
+        }
+      }
+    },
+    {
+      "id": "stage-festival",
+      "type": "stage",
+      "name": "Panggung Festival",
+      "version": "1.0",
+      "author": "MIXJOS",
+      "padMin": 0,
+      "padMax": 0,
+      "path": "skins/stage-festival/",
+      "files": {
+        "scene-cerah.webp": {
+          "sha256": "113601c406fc43771a85aedeeafc0af3320e3324a57729a760be22ca787184e9",
+          "size": 310790
+        },
+        "scene-malam.webp": {
+          "sha256": "69ccf98ed8e170400ad1fb993ad4d8b574655edc13ecf3cac882c6a4946b1b54",
+          "size": 245486
+        },
+        "scene-sunset.webp": {
+          "sha256": "6083643394d298778b793c4d6c9271cb1e9f670413773c467be5fd31c8c5e2cc",
+          "size": 286126
+        },
+        "stage.json": {
+          "sha256": "408684d886fc21ca3fc59699b720b594014596fa22c4cba5243e1f62251939ce",
+          "size": 5323
+        }
+      }
+    }
+  ]
+}
